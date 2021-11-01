@@ -30,7 +30,7 @@ window.onload = function () {
       title: "welcome",
       html: "ก่อนเข้าชมเว็บไซต์รบกวนทำแบบสอบถาม: <b></b>",
       confirmButtonText:
-        "<a href='https://forms.gle/GWALrgshpds1Asg8A' style='text-decoration: none; color: #fff';padding: 20px;>ตกลง</a>",
+        "<a target='_blank' href='https://forms.gle/GWALrgshpds1Asg8A' style='text-decoration: none; color: #fff';padding: 20px;>ตกลง</a>",
     });
   }
 

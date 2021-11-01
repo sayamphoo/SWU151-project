@@ -1,109 +1,161 @@
 <!DOCTYPE html>
-<html lang='en'>
+<html lang="en">
   <head>
-    <meta charset='UTF-8' />
-    <meta http-equiv='X-UA-Compatible' content='IE=edge' />
-    <meta name='viewport' content='width=device-width, initial-scale=1.0' />
-    <link rel='stylesheet' href='style.css' />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
 
-    <link rel='preconnect' href='https://fonts.googleapis.com' />
-    <link rel='preconnect' href='https://fonts.gstatic.com' crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href='https://fonts.googleapis.com/css2?family=Prompt:wght@200&display=swap'
-      rel='stylesheet'
+      href="https://fonts.googleapis.com/css2?family=Prompt:wght@200&display=swap"
+      rel="stylesheet"
     />
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <title></title>
   </head>
   <body>
-    <script src='main.js'></script>
-    <div class='web-heder'>
-      <div class='heder-university'>
+    <script src="main.js"></script>
+    <div class="web-heder">
+      <div class="heder-university">
         <img
-          width='100px'
-          src='https://upload.wikimedia.org/wikipedia/th/thumb/a/ac/Srinakharinwirot_University_Logo.svg/1200px-Srinakharinwirot_University_Logo.svg.png'
+          width="100px"
+          src="https://upload.wikimedia.org/wikipedia/th/thumb/a/ac/Srinakharinwirot_University_Logo.svg/1200px-Srinakharinwirot_University_Logo.svg.png"
         />
         <h1>การแก้ไขสุขภาพกายยุค</h1>
       </div>
 
-      <div class='title-name'>
+      <div class="title-name">
         <p>โครงการการแก้ไขสุขภาพกายยุค โควิด-19</p>
       </div>
     </div>
 
-    <div class='container'>
+    <div class="container">
       <div
-        style='text-align: center; padding-top: 20px; padding-bottom: 50px'
-        class='search'
+        style="text-align: center; padding-top: 20px; padding-bottom: 50px"
+        class="search"
       >
         <form>
           <input
-            id='myInput'
-            type='text'
-            name='search'
-            onkeyup='myFunction()'
-            placeholder='Search..'
+            id="myInput"
+            type="text"
+            name="search"
+            onkeyup="myFunction()"
+            placeholder="Search.."
           />
         </form>
       </div>
 
-      <ul class='row' id='myUL'>
-
- <!----!!!!!!!!!!!!!!-----> 
+      <ul class="row" id="myUL">
+        <!----!!!!!!!!!!!!!!----->
         <li>
-          <div onclick='myOpen("https://pf.co.th/blog/happy-at-home/lifestyle/fit-at-home/office-syndrome-exercise")' class='column' id='card'>
-            <div id='card-item' class='card-item'>
-              <img src='./image/office sydrome.jpg' width='100%' />
-              <div class='content'>
+          <div
+            onclick='myOpen("https://pf.co.th/blog/happy-at-home/lifestyle/fit-at-home/office-syndrome-exercise")'
+            class="column"
+            id="card"
+          >
+            <div id="card-item" class="card-item">
+              <img src="./image/office sydrome.jpg" width="100%" />
+              <div class="content">
                 <h4>ออฟฟิศซินโดรม</h4>
-                <p>เป็นอาการยอดฮิตของคนเมืองสมัยนี้ซึ่งเกิดจากการมีอิริยาบถและอยู่ในสภาพแวดล้อมการทำงานที่ไม่เหมาะสม โดยเฉพาะท่านั่งทำงานในออฟฟิศ นั่งหน้าจอคอมนานๆยกไหล่กระดกข้อมือพิมพ์คีย์บอร์ดทั้งวันหรือไม่ว่าจะเป็นการนั่งเล่น smartphone สไลด์จอขึ้นลงเองก็ส่งผลให้เกิดโรคออฟฟิศซินโดรมได้เช่นกัน
+                <p>
+                  เป็นอาการยอดฮิตของคนเมืองสมัยนี้ซึ่งเกิดจากการมีอิริยาบถและอยู่ในสภาพแวดล้อมการทำงานที่ไม่เหมาะสม
+                  โดยเฉพาะท่านั่งทำงานในออฟฟิศ
+                  นั่งหน้าจอคอมนานๆยกไหล่กระดกข้อมือพิมพ์คีย์บอร์ดทั้งวันหรือไม่ว่าจะเป็นการนั่งเล่น
+                  smartphone
+                  สไลด์จอขึ้นลงเองก็ส่งผลให้เกิดโรคออฟฟิศซินโดรมได้เช่นกัน
                 </p>
               </div>
             </div>
           </div>
         </li>
 
-<!----!!!!!!!!!!!!!!-----> 
+        <!----!!!!!!!!!!!!!!----->
         <li>
-          <div onclick="myOpen('http://blog.glazziq.com/6-ท่าบริหารดวงตา')" class='column' id='card'>
-            <div id='card-item' class='card-item'>
-              <img src='./image/eyes.jpg' width='100%' />
-              <div class='content'>
+          <div
+            onclick="myOpen('http://blog.glazziq.com/6-ท่าบริหารดวงตา')"
+            class="column"
+            id="card"
+          >
+            <div id="card-item" class="card-item">
+              <img src="./image/eyes.jpg" width="100%" />
+              <div class="content">
                 <h4>บริหารดวงตา คลายความเมื่อยล้า</h4>
-                <p>เดี๋ยวนี้เวลาเรานั่งอยู่หน้าจอคอมพิวเตอร์นานๆ ไม่ว่าจะนั่งทำงาน นั่งเล่นเกม นั่งดูหนัง ถ้าเราใช้สายตาเพ่งมองนานๆ เชื่อว่าหลายคนคงมีอาการปวดตากันบ้าง</p>
+                <p>
+                  เดี๋ยวนี้เวลาเรานั่งอยู่หน้าจอคอมพิวเตอร์นานๆ
+                  ไม่ว่าจะนั่งทำงาน นั่งเล่นเกม นั่งดูหนัง
+                  ถ้าเราใช้สายตาเพ่งมองนานๆ เชื่อว่าหลายคนคงมีอาการปวดตากันบ้าง
+                </p>
               </div>
             </div>
           </div>
         </li>
 
- <!----!!!!!!!!!!!!!!----->       
+        <!----!!!!!!!!!!!!!!----->
         <li>
-          <div onclick="myOpen('https://www.gj.mahidol.ac.th/main/ttm/frozenshoulder')" class='column' id='card'>
-            <div id='card-item' class='card-item'>
-              <img src='./image/shoulder.jpg' width='100%' />
-              <div class='content'>
+          <div
+            onclick="myOpen('https://www.gj.mahidol.ac.th/main/ttm/frozenshoulder')"
+            class="column"
+            id="card"
+          >
+            <div id="card-item" class="card-item">
+              <img src="./image/shoulder.jpg" width="100%" />
+              <div class="content">
                 <h4>ท่าบริหาร หัวไหล่ติด( Frozen Shoulder)</h4>
-                <p>อาจเกิดจาก 1. เอ็นข้อไหล่อักเสบ   2. เอ็นข้อไหล่ฉีกขาด   3. กระดูกงอกภายในข้อไหล่ เป็นต้น   โดยพบว่าผู้ป่วยที่เป็นโรคเบาหวาน ต่อมธัยรอยด์เป็นพิษ โรคหัวใจมีโอกาสเกิดภาวะข้อไหล่ติดได้มากกว่าคนทั่วไป</p>
+                <p>
+                  อาจเกิดจาก 1. เอ็นข้อไหล่อักเสบ 2. เอ็นข้อไหล่ฉีกขาด 3.
+                  กระดูกงอกภายในข้อไหล่ เป็นต้น โดยพบว่าผู้ป่วยที่เป็นโรคเบาหวาน
+                  ต่อมธัยรอยด์เป็นพิษ
+                  โรคหัวใจมีโอกาสเกิดภาวะข้อไหล่ติดได้มากกว่าคนทั่วไป
+                </p>
               </div>
             </div>
           </div>
         </li>
 
-<!----!!!!!!!!!!!!!!-----> 
+        <!----!!!!!!!!!!!!!!----->
         <li>
-          <div onclick="myOpen('https://www.hongthongrice.com/life/blog/easy_healthy/6yoga-backahce/')" class='column' id='card'>
-            <div id='card-item' class='card-item'>
-              <img src='./image/backache.jpg' width='100%' />
-              <div class='content'>
+          <div
+            onclick="myOpen('https://www.hongthongrice.com/life/blog/easy_healthy/6yoga-backahce/')"
+            class="column"
+            id="card"
+          >
+            <div id="card-item" class="card-item">
+              <img src="./image/backache.jpg" width="100%" />
+              <div class="content">
                 <h4>สำหรับคนปวดหลัง</h4>
-                <p>ทุกวันนี้หลายคนมักจะปวดหลังกันได้ง่ายๆ เนื่องมาจากการใช้ชีวิตประจำวันไม่ว่าจะเป็นท่านั่ง ท่ายืน และท่านอนที่ไม่ถูกวิธี จนส่งผลทำให้มีอาการปวดหลังเรื้อรัง</p>
+                <p>
+                  ทุกวันนี้หลายคนมักจะปวดหลังกันได้ง่ายๆ
+                  เนื่องมาจากการใช้ชีวิตประจำวันไม่ว่าจะเป็นท่านั่ง ท่ายืน
+                  และท่านอนที่ไม่ถูกวิธี จนส่งผลทำให้มีอาการปวดหลังเรื้อรัง
+                </p>
               </div>
             </div>
           </div>
         </li>
-        
       </ul>
+
+      <div class="butteven">
+        <button
+          onclick="myOapen('https://forms.gle/GWALrgshpds1Asg8A')"
+          class="b_nn button1"
+        >
+          แบบสอบถามก่อนทำกิจกรรม
+        </button>
+        <button
+          onclick="myOapen('https://forms.gle/GYmwg76UzHwZWw437')"
+          class="b_nn button2"
+        >
+          แบบสอบถามหลังทำกิจกรรม
+        </button>
+      </div>
     </div>
 
+    <script>
+      function myOapen(url) {
+        window.open(url, "_blank").focus();
+      }
+    </script>
   </body>
 </html>
